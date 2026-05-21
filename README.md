@@ -57,14 +57,25 @@ Type the program in Quartus software.
 
 Write the detailed procedure here
 
-**Program:**
+**Program:**\
+```
+module EXP4(a,b,cin,sum,carry,BO,DIFF);
+input a,b,cin;
+output sum,carry,BO,DIFF;
+wire a0;
+not(a0,a);
+assign sum = a ^ b ^ cin;
+assign carry = (a & b) | (b & cin) | (a & cin);
+assign DIFF = a ^ b ^ cin;
+assign BO = (a0 & b) | (a0 & cin) | (b & cin);
+endmodule
+```
+**RTL Schematic**\
+<img width="648" height="562" alt="image" src="https://github.com/user-attachments/assets/b28eaf36-5c8b-4ae2-95f6-a83a40f2da10" />
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
 
-**RTL Schematic**
-
-**Output Timing Waveform**
+**Output Timing Waveform**\
+<img width="1917" height="1021" alt="image" src="https://github.com/user-attachments/assets/9bbaab7e-17fc-411d-8095-603881016360" />
 
 **Result:**
 
