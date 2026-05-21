@@ -44,7 +44,7 @@ Full Subtractor\
 <img width="300" height="179" alt="image" src="https://github.com/user-attachments/assets/c1ee7417-21df-4480-99f9-65c8b8e1d623" />
 
 
-**Procedure**\
+**Procedure**
 Type the program in Quartus software.
 
 2.Compile and run the program.
