@@ -37,8 +37,23 @@ Diff = A ⊕ B ⊕ Bin
 Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
+Full adder
+<img width="518" height="463" alt="image" src="https://github.com/user-attachments/assets/cc33b606-37a9-470f-84a6-5edcd3c09d7f" />
 
-**Procedure**
+Full Subtractor
+<img width="300" height="179" alt="image" src="https://github.com/user-attachments/assets/c1ee7417-21df-4480-99f9-65c8b8e1d623" />
+
+
+**Procedure**\
+Type the program in Quartus software.
+
+2.Compile and run the program.
+
+3.Generate the RTL schematic and save the logic diagram.
+
+4.Create nodes for inputs and outputs to generate the timing diagram.
+
+5.For different input combinations generate the timing diagram
 
 Write the detailed procedure here
 
